@@ -335,7 +335,7 @@ text-align: center;
     content:url("images/bottom.png");
     position: absolute;
     top: 0;
-    right: -465px;
+    right: -466px;
 
 }
 .icon-h2{
@@ -375,11 +375,11 @@ footer {
     background-color: #0891f8;
     height: 60px;
     width: 100%;
-    transform:translateY(120px);
-    -webkit-transform:translateY(120px);
-    -moz-transform:translateY(120px);
-    -ms-transform:translateY(120px);
-    -o-transform:translateY(120px);
+    transform:translateY(140px);
+    -webkit-transform:translateY(140px);
+    -moz-transform:translateY(140px);
+    -ms-transform:translateY(140px);
+    -o-transform:translateY(140px);
 }
 footer p{
     color: #fff;
