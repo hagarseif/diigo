@@ -1,0 +1,390 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sec1{
+    width: 100%;
+    position: relative;
+}
+.sec1 .imgs{
+    background-image: url("images/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 102vh;
+}
+.sec1 .imgs .banner{
+    width: 600px;
+    margin-left: 50%;
+    margin-top: 220px;
+}
+.sec1 .con .h1-p{
+    position: absolute;
+    top: 150px;
+    width: 40%;
+    margin-left: 7%;
+}
+.sec1 .con .h1-p h1{
+    font-size: 52px;
+    font-weight: 800;
+    line-height: 60px;
+    font-family: "Baloo Chettan 2";
+    color: #fff;
+}
+.sec1 .con .h1-p p{
+    margin-top: 50px;
+    width: 80%;
+    color: #fff;
+    font-family: lato;
+    line-height: 30px;
+    font-size: 17px;
+    margin-bottom: 40px;
+}
+.sec1 .con .h1-p a{
+    margin-top: 30px;
+    padding: 15px 50px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    text-decoration: none;
+    color: #0891f8;
+    font-family: lato;
+    font-size: 17px;
+}
+.sec1 .flex{
+    display: flex;
+    position: absolute;
+    top: 30px;
+    margin-left: 40px;
+}
+.sec1 .flex .list ul{
+display: flex;
+margin-top: 30px;
+margin-left: 150px;
+}
+.sec1 .flex .list ul li{
+    list-style: none;
+    padding-left:30px;
+}
+.sec1 .flex .list ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: lato;
+    font-size: 16px;
+}
+/* end of heading */
+.contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.contain .text-img img{
+    width: 100%;
+}
+.contain .text-img {
+    text-align: center;
+}
+.contain .width{
+    margin: auto;
+    width: 65%;
+   
+}
+.contain .text-img h4{
+    font-family: "Baloo Chettan 2";
+    font-size: 30px;
+    color: #0891f8;
+}
+.contain .text-img h2{
+    font-family: "Baloo Chettan 2";
+    font-size: 40px;
+}
+.contain .text-img p{
+    font-family: lato;
+    font-size: 15px;
+    color: #666666;
+    padding-bottom: 30px;
+}
+.contain .text p{
+    font-family: lato;
+    font-size: 17px;
+    text-align: center;
+    line-height: 25px;
+    padding-top: 30px;
+}
+.contain .text{
+    position: relative;
+}
+.contain .text a{
+    text-decoration: none;
+    color: white;
+    font-family: lato;
+    background-color: #252525;
+    padding: 15px 0;
+    width: 170px;
+    margin: auto;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+}
+.contain .text::before{
+    content: url("images/new.png");
+    position: absolute;
+    right: -236px;
+}
+/* end of sec1 */
+.contain .text-img1{
+    margin-top: 70px;
+    text-align: center;
+}
+.contain .text-img1 h4{
+    font-family: "Baloo Chettan 2";
+    font-size: 30px;
+    color: #0891f8;
+}
+.contain .text-img1 h2{
+    font-family: "Baloo Chettan 2";
+    font-size: 40px;
+}
+.contain .text-img1 p{
+    font-family: lato;
+    font-size: 15px;
+    color: #666666;
+    padding-bottom: 30px;
+}
+.contain .text1 p{
+    font-family: lato;
+    font-size: 17px;
+    text-align: center;
+    line-height: 25px;
+    padding-top: 30px;
+}
+.contain .text1 a{
+    text-decoration: none;
+    color: white;
+    font-family: lato;
+    background-color: #252525;
+    padding: 15px 0;
+    width: 170px;
+    margin: auto;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+}
+.contain .text-img1 img{
+    width: 50%;
+}
+/* end of sec2 */
+.relation {
+position: relative;
+width: 100%;
+}
+.relation .rel {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 50px;
+}
+.relation .rel img{
+    width: 80%;
+}
+.relation .abs{
+    position: absolute;
+    top: 50px;
+    display: flex;
+}
+.relation .abs img{
+    position: absolute;
+    top:130px;
+    left: 180px;
+    border: 12px solid rgb(218, 209, 197);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.relation .abs i{
+    position: absolute;
+    top:245px;
+    left: 290px;
+    color: rgb(218, 209, 197);
+    font-size: 50px;
+}
+
+.relation .abs .h-p h2{
+    position: absolute;
+    left: 42%;
+    top: 20px;
+    font-family: "Baloo Chettan 2";
+    font-size: 40px;
+    font-weight: 900;
+    color: #fff;
+}
+.relation .abs .h-p h4{
+    position: absolute;
+    left: 32%;
+    top: 120px;
+    font-family: lato;
+    color: #fff;
+    font-size: 20px;
+}
+.relation .abs .h-p p{
+    font-family: lato;
+    color: #fff;
+    width: 50%;
+    margin-top: 160px;
+    margin-left: 430px;
+    line-height: 25px;
+    font-size: 17px;
+}
+/* end of sec3  */
+.text-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    width: 100%;
+}
+.text-form .contact {
+text-align: center;
+}
+.text-form .contact  h2{
+    font-family: "Baloo Chettan 2";
+    font-size: 40px;
+    color: #3E3E3E;
+    font-weight: 900;
+}
+.text-form .contact  p{
+    font-family: lato;
+    font-size: 17px;
+    color: #666666;
+}
+.text-form form{
+    margin-top: 70px;
+    border: #008df3 solid 1px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    padding:20px 40px;
+    width: 1000px;
+}
+.text-form form input,
+.text-form form textarea{
+    display: block;
+    border-width: 0 0 1px 0;
+    border-color: #008df3;
+    padding: 40px 20px 10px 0;
+    width: 100%;
+    outline: none;
+    color: #008df3;
+    font-size: 17px;
+    font-family: lato;
+}
+
+.text-form form input::placeholder,
+.text-form form textarea::placeholder{
+    color: #008df3;
+    font-size: 17px;
+    font-family: lato;
+}
+.text-form form button{
+    color: white;
+    font-family: lato;
+    background-color: #000;
+    padding: 15px 0;
+    width: 180px;
+    margin: auto;
+    text-align: center;
+    display: block;
+    margin-top: 50px;
+    border: 0;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+/* end of form sec */
+.icon-h2 .header2{
+    font-family: Righteous;
+    font-size: 20px;
+    position: relative;
+}
+.icon-h2 .header2 strong{
+    color: #008df3;
+}
+.icon-h2 .header2::after{
+    content:url("images/bottom.png");
+    position: absolute;
+    top: 0;
+    right: -465px;
+
+}
+.icon-h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    text-align: center;
+}
+.icon-h2 .icons i{
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.icon-h2 .icons .fa-facebook-f,
+.icon-h2 .icons .fa-twitter,
+.icon-h2 .icons .fa-linkedin-in
+{
+    color: #008df3;
+    background-color: #fff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    box-shadow: #ddd 0px 0px 10px 0px;
+    font-size: 22px;
+    padding: 14px 18px;
+}
+.icon-h2 .icons .fa-twitter{
+    padding: 14px ;
+}
+.icon-h2 .icons .fa-linkedin-in{
+    padding: 14px 16px;
+}
+/* end of sec 4 */
+footer {
+    background-color: #0891f8;
+    height: 60px;
+    width: 100%;
+    transform:translateY(120px);
+    -webkit-transform:translateY(120px);
+    -moz-transform:translateY(120px);
+    -ms-transform:translateY(120px);
+    -o-transform:translateY(120px);
+}
+footer p{
+    color: #fff;
+    font-family: lato;
+    font-size: 17px;
+    text-align: center;
+    padding-top: 20px;
+}
