@@ -334,7 +334,7 @@ text-align: center;
 .icon-h2 .header2::after{
     content:url("images/bottom.png");
     position: absolute;
-    top: 0;
+    top: 5px;
     right: -466px;
 
 }
@@ -373,7 +373,7 @@ text-align: center;
 /* end of sec 4 */
 footer {
     background-color: #0891f8;
-    height: 60px;
+    height: 65px;
     width: 100%;
     transform:translateY(140px);
     -webkit-transform:translateY(140px);
